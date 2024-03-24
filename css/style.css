@@ -1,0 +1,171 @@
+/* font-family start */
+/* @import url('https://fonts.cdnfonts.com/css/avenir'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+/* font family end */
+
+/* common css start */
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:#000000;
+}
+/* common css end */
+/* header start */
+header{
+    padding: 15px 0;
+    background-color: #D7F5DC; 
+}
+.cnav{}
+.menu ul li a{
+    padding:0 30px !important;
+    font-size: 16px;  
+    font-weight: 500;
+    color: #000000 !important;
+}
+.btn_cm{
+    background-color:  #20B15A;
+    font-family: "Poppins", sans-serif; 
+    color: #FFFFFF;
+    
+    
+}
+.btn_cm:hover{
+    background-color: #F55F1D;
+    color: #FFFFFF;
+}
+.btn_cm:active{
+    background-color: #F55F1D;
+    color: #FFFFFF !important;
+}
+.btn_log{
+    margin-left: 20px;
+    margin-right: 30px;
+    
+    font-family: "Poppins", sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    border: 1px solid #20B15A;  
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+  
+.btn_reg{
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+/* header end */
+/* banner start */
+.banner{
+    background-color: #D7F5DC;
+    padding: 49px 0 24px ;
+}
+.b_content{
+    padding-right: 105px;
+    margin: 108px 0 54px;
+}
+.b_h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 65px;
+    color: #000000;
+
+}
+.b_p1{
+    margin: 10px 0 35px;
+    font-weight: 400;
+
+}
+.b_btn{
+    margin-top: 0;
+    border-radius: 16px;
+    padding: 20px 30px;
+}
+.b_img{}
+.b_img img{}
+
+
+/* banner end */
+/* logos start */
+.logos{
+    padding: 45px 0;
+    background-color: #F8FFF9;
+}
+/* logos end */
+/* solution start */
+
+/* solution end */
+/* growth start */
+/* growth end */
+/* contact start */
+.contact{
+    padding: 91px 0 87px;
+    background-color: #FFFFFF;
+}
+.c_tittle{}
+.c_h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #20B15A;
+}
+.c_p1{
+    padding: 0 10px;
+    margin-top: 22px;
+    margin-bottom: 46px;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.c_p2{
+    margin-bottom: 23px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8B8B8B;
+    
+}
+.c_form{
+    
+}
+.c_input{
+    padding: 20px 16px;
+    border-radius: 14px;
+    border: 1px solid #000000;
+    
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #8B8B8B;
+}
+.c_button{}
+.c_button:hover{}
+/* contact end */
+/* footer top start */
+.f_top{
+    background-color: #20B15A;
+
+}
+.ft_logo h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+.ft_logo p{
+    font-weight: 400;
+}
+
+/* footer top end */
+/* footer */
+footer{
+    background-color: #20B15A;
+}
+footer p{
+    margin-left: 70px;
+    font-weight: 400;
+}
+
