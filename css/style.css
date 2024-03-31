@@ -1,15 +1,13 @@
 /* font-family start */
 /* @import url('https://fonts.cdnfonts.com/css/avenir'); */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 /* font family end */
 
 /* common css start */
 body{
     font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
     color:#000000;
 }
 /* common css end */
@@ -57,10 +55,9 @@ header{
 .btn_reg{
     border-radius: 10px;
     padding: 10px;
-    
 }
-
 /* header end */
+
 /* banner start */
 .banner{
     background-color: #D7F5DC;
@@ -79,18 +76,18 @@ header{
 }
 .b_p1{
     margin: 10px 0 35px;
-    font-weight: 400;
+    font-size: 20px; 
 
 }
 .b_btn{
     margin-top: 0;
     border-radius: 16px;
     padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 500;
 }
 .b_img{}
 .b_img img{}
-
-
 /* banner end */
 /* logos start */
 .logos{
@@ -99,8 +96,8 @@ header{
 }
 /* logos end */
 /* solution start */
-.solution p{
-    margin-top: 67px;
+.solution {
+    padding: 70px 105px 45px;
 }
 .cm_p{
     font-size: 20px;
@@ -118,8 +115,7 @@ header{
     color: #000000;
 }
 .s_single{
-    padding: 10px 30px 35px;
-    margin-bottom: 48px;
+    padding: 50px 50px 50px 30px;
     background-color: #F8FFF9;
     border-radius: 30px;
 }
@@ -128,47 +124,71 @@ header{
     box-shadow:0px 20px 40px rgba(0, 0, 0, 0.1) ;
 }
 .s_icon{
-    margin: 50px 0 15px;
+
 }
 .s_icon i{
-    padding: 20px;
+    padding: 30px;
     font-size: 25px;
     background-color:#D7F5DC;
     border: 1px solid transparent;
     border-radius: 20px;
     color: #130F26;
 }
+.s_single h3{
+    margin: 15px 0;
+}
 .cm_h3{
     font-size: 24px;
     font-weight: 600;
     color: #000000;
 }
-.single_p{
-    margin: 15px 0 43px;
-   
-    font-size: 18px;
-    font-weight: 400;
-}
-.s_single p{
-    margin-bottom: 51px;
+
+.s_p{
+    margin-bottom: 40px;
 }
 .s_single p a{
-   
     font-size: 18px;
     font-weight: 400;
     color: #000000;
     text-decoration: none;
+}
+.s_single p a:hover{
+    color: #F55F1D !important;
+
 }
 .s_single p a span i{
     font-size: 16px;
     color: #000000;
     
 }
+.s_single p a span i:hover{
+    transform: scale(1.2);
+}
 
 
 /* solution end */
-/* growth start */
-/* growth end */
+/* feature start */
+.feature{
+    background-color: #FAFFFB;
+    padding: 80px 0;
+}
+.f_item{
+    padding: 40px 40px;
+    border-right: 1px solid #C4C4C4;
+}
+.f_img{}
+.f_img img{}
+.f_p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.f_p1{
+    font-size: 40px;
+    color: #20B15A;
+}
+/* feature end */
 /* contact start */
 .contact{
     padding: 91px 0 87px;
